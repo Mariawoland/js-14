@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>JS 14</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+
+        function modzraoba() {
+
+            var burti = document.getElementById('burti');
+            burti.style.right = '10px';
+            burti.style.backgroundColor = 'green';
+
+        }
+
+    </script>
+
+    <style>
+        body {}
+
+        #burti {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            background-color: blue;
+            position: absolute;
+        }
+
+        #gilaki {
+            position: absolute;
+            top: 220px;
+            width: 200px;
+            height: 50px;
+            font-size: 20px;
+            font-family: calibri;
+            border: 2.5px solid blue;
+            background-color: rgb(164, 164, 255);
+            color: blue;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="burti"></div>
+
+    <button onclick="modzraoba()" id="gilaki">დააკლიკე</button>
+
+
+</body>
+
+</html>
